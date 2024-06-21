@@ -10,8 +10,8 @@ This repository consists of the files used for my Master's thesis. The study ass
 - The 'code' folder contains the scripts for data pre-processing, model inference, and analysis.
 - The 'baseline_preprocessing' and 'unique_preprocessing' scripts are used to clean the respective data.
 - The 'mask_data' script masks the data for the all context lengths, and stores the masked sequences in the 'data' folder.
-- The 'fill_masks' script presents the masked sequences to the models and stores the results in the 'result' folder.
-- The 'combine_results' script is used to combine all results (spanning various model sizes and context lengths) into a single file for unique and duplicate sequences. This makes analysis more convenient.
+- The 'fill_masks' script presents the masked sequences to the models and stores the results in the 'results' folder.
+- The 'combine_results' script is used to combine all results (spanning various model sizes and context lengths) into a single file for unique and duplicate sequences. This step makes analysis more convenient.
 
 **Analysis**
 - The 'analysis' folder within the 'code' folder contains the script used to analyze the results. The figures in the thesis are also generated in this script.
